@@ -13,4 +13,4 @@ All links are relative, so the project path works.
 
 ## Before you publish
 
-Replace these placeholders in every page (English and `tr/`): `[COMPANY NAME]`, `[ADDRESS]`, `[SUPPORT EMAIL]`.
+Replace these placeholders in every page (English and `tr/`): `[COMPANY NAME]`, `[ADDRESS]`.
