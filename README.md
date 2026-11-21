@@ -11,6 +11,3 @@ Static site for the Izlio app. Plain HTML and one CSS file. No build step.
 
 All links are relative, so the project path works.
 
-## Before you publish
-
-Replace these placeholders in every page (English and `tr/`): `[COMPANY NAME]`, `[ADDRESS]`.
