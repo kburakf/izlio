@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,43 +12,157 @@
 <meta property="og:description" content="Izlio is an IPTV player for Android TV and Google TV, with a program guide, a sports guide and sign-in with your phone.">
 <meta property="og:url" content="https://kburakf.github.io/izlio/">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://kburakf.github.io/izlio/img/live-tv.jpg">
+<meta property="og:image" content="https://kburakf.github.io/izlio/img/en/home.jpg">
 <meta property="og:image:width" content="1600">
 <meta property="og:image:height" content="900">
-<meta property="og:image:alt" content="Izlio Live TV screen: country and category list on the left, the channel list in the middle, and a preview with the current and next program on the right.">
+<meta property="og:image:alt" content="Izlio home screen with the last channel and the Continue watching row.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/pjs-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top"><a class="brand" href="index.html"><img class="mark" src="logo.svg" alt="izlio" width="98" height="40"></a>
-<nav aria-label="Main"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a class="lang" href="tr/" hreflang="tr">Türkçe</a></nav></header>
+<nav aria-label="Main"><a href="#features">Features</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a class="lang" href="tr/index.html" hreflang="tr">Türkçe</a></nav></header>
 <main>
-<section class="hero-home"><h1>Izlio</h1><p class="lead">IPTV player for Android TV and Google TV</p><p class="meta">Live TV, movies and series. One remote.</p>
-<figure class="shot hero-shot"><img src="img/live-tv.jpg" alt="Izlio Live TV screen: country and category list on the left, the channel list in the middle, and a preview with the current and next program on the right." width="1600" height="900" decoding="async" fetchpriority="high"></figure>
-<aside class="notice notice-calm" role="note"><strong>Important.</strong> Izlio does not provide, host or sell any channels, movies or streams. You add your own provider account (Xtream Codes).</aside></section>
-<section aria-labelledby="f"><h2 id="f">What you can do</h2>
-<article class="feature"><div><p class="eyebrow">Live TV</p><h3>Find a channel fast</h3><p>Pick a country and a category on the left. See the channel list, a live preview, and the program that is on now and next. The program guide (EPG) is built in.</p></div><figure class="shot"><img src="img/live-tv.jpg" alt="Izlio Live TV screen with the country list, the channel list and a live preview." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Player</p><h3>Full screen, one remote</h3><p>Change channels with Up and Down. Press Left for the previous channel. The info bar shows the program and the time. The quick menu has audio, subtitles, picture and an external player. A broken stream reconnects by itself.</p></div><figure class="shot"><img src="img/player.jpg" alt="Full-screen live player with the info bar that shows the channel, the current and next program, and the time." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Program guide</p><h3>A full guide grid by day</h3><p>Browse the guide grid with day tabs. Open a program to watch live or from the start. For past programs, "In archive" plays catch-up when the provider has an archive. For a later program, choose Remind me. The app shows a notice 1 minute before and at the start.</p></div><figure class="shot"><img src="img/guide.jpg" alt="Program guide grid with day tabs from Yesterday to Tuesday and the programs of each channel." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Sports</p><h3>One list of matches and events</h3><p>The sports guide collects the matches and events from the guide data of the sports channels. The list is grouped into Now, Today, Tomorrow and Later. A filter shows only live matches, or replays too. Press Left or Right to pick another channel for the same event, and OK to start it.</p></div><figure class="shot"><img src="img/sports.jpg" alt="Sports guide with matches grouped under Today and Tomorrow, the league and the channel of each match." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Sign in with your phone</p><h3>Type the login on your phone, not on the TV</h3><p>The TV shows a QR code. Scan it, type the login on your phone, and send. Your phone and TV must be on the same Wi-Fi. The login goes directly to the TV, encrypted. It does not go through the internet or through us. Typing on the TV with the remote also works.</p></div><figure class="shot"><img src="img/qr-login.jpg" alt="Add account screen with a QR code to sign in with the phone, next to the server, user name and password fields." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Home</p><h3>Continue watching</h3><p>The home screen has a Continue watching row. It shows the movies, episodes and live channels that you watched last. Open one to resume. You can remove an item from the row.</p></div><figure class="shot"><img src="img/home.jpg" alt="Home screen with the last channel and the Continue watching row with a live channel, an episode and a movie." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Subtitles</p><h3>Two subtitles at the same time</h3><p>For movies and series, pick a first and a second subtitle. For example the original language and your language. Each one has its own color. You can also set the size, color, background and font of the subtitles, and a preferred audio language.</p></div><figure class="shot"><img src="img/subtitles.jpg" alt="Subtitle look settings with a preview of two subtitle lines in two colors." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Show only what you watch</p><h3>Choose your countries and groups</h3><p>On first start, choose the countries and groups that you want to see. The others never show in any list. You can hide single categories too, and change it any time in Settings. A broken channel is hidden for 24 hours.</p></div><figure class="shot"><img src="img/groups.jpg" alt="Country picker with Turkey, Germany and United Kingdom and the number of channels, movies and series in each." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Movies</p><h3>Posters, favorites, continue watching</h3><p>Browse movies by country and category. Keep your favorites and your own lists. Continue watching is one step away.</p></div><figure class="shot"><img src="img/movies.jpg" alt="Izlio Movies screen with the category list and a grid of movie posters." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Movie details</p><h3>Pick up where you stopped</h3><p>The details page shows the plot, genre, length and rating. Press Resume to continue at the saved position, or start over.</p></div><figure class="shot"><img src="img/movie-detail.jpg" alt="Movie details page with the poster, plot, genre, length, rating and the Resume and Start over buttons." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
-<article class="feature"><div><p class="eyebrow">Series</p><h3>Seasons and episodes</h3><p>Open a series and choose a season and an episode. When an episode ends, a countdown starts the next one.</p></div><figure class="shot"><img src="img/series.jpg" alt="Series page with the poster, plot, a season list and a list of episodes with their length." width="1600" height="900" loading="lazy" decoding="async"></figure></article>
+
+<section class="hero" aria-label="Izlio">
+<div>
+<h1>The IPTV player made for the TV remote.</h1>
+<p class="tagline">Live TV, a full program guide, a sports guide, movies and series. Sign in with your phone.</p>
+<p class="soon"><svg width="14" height="16" viewBox="0 0 14 16" aria-hidden="true" focusable="false"><path d="M1 1.5v13L13 8Z" fill="currentColor"/></svg>Coming soon to Google Play</p>
+<p class="quiet">Izlio is a player. It has no channels. You add your own provider account (Xtream Codes) or your own M3U playlist (link or file).</p>
+<p class="platforms">For Android TV and Google TV</p>
+</div>
+<div class="tour">
+<figure class="tv">
+<div class="tv-screen">
+<figure class="panel" role="tabpanel" id="panel-0" aria-labelledby="tab-0"><picture><source type="image/webp" srcset="img/en/home-960.webp 960w, img/en/home-1920.webp 1920w" sizes="(min-width:1100px) 620px, 92vw"><img src="img/en/home.jpg" alt="Izlio home screen with the last channel and the Continue watching row with a live channel, an episode and a movie." width="1600" height="900" fetchpriority="high" decoding="async"></picture></figure>
+<figure class="panel" role="tabpanel" id="panel-1" aria-labelledby="tab-1"><picture><source type="image/webp" srcset="img/en/live-tv-960.webp 960w, img/en/live-tv-1920.webp 1920w" sizes="(min-width:1100px) 620px, 92vw"><img src="img/en/live-tv.jpg" alt="Izlio Live TV screen: country and category list on the left, the channel list in the middle, and a preview with the current and next program on the right." width="1600" height="900" loading="lazy" decoding="async"></picture></figure>
+<figure class="panel" role="tabpanel" id="panel-2" aria-labelledby="tab-2"><picture><source type="image/webp" srcset="img/en/guide-960.webp 960w, img/en/guide-1920.webp 1920w" sizes="(min-width:1100px) 620px, 92vw"><img src="img/en/guide.jpg" alt="Program guide grid with day tabs from Yesterday to Tuesday and the programs of each channel." width="1600" height="900" loading="lazy" decoding="async"></picture></figure>
+<figure class="panel" role="tabpanel" id="panel-3" aria-labelledby="tab-3"><picture><source type="image/webp" srcset="img/en/sports-960.webp 960w, img/en/sports-1920.webp 1920w" sizes="(min-width:1100px) 620px, 92vw"><img src="img/en/sports.jpg" alt="Sports guide with matches grouped under Today and Tomorrow, the league and the channel of each match." width="1600" height="900" loading="lazy" decoding="async"></picture></figure>
+<figure class="panel" role="tabpanel" id="panel-4" aria-labelledby="tab-4"><picture><source type="image/webp" srcset="img/en/player-960.webp 960w, img/en/player-1920.webp 1920w" sizes="(min-width:1100px) 620px, 92vw"><img src="img/en/player.jpg" alt="Full-screen live player with the info bar that shows the channel, the current and next program, and the time." width="1600" height="900" loading="lazy" decoding="async"></picture></figure>
+<figure class="panel" role="tabpanel" id="panel-5" aria-labelledby="tab-5"><picture><source type="image/webp" srcset="img/en/qr-login-960.webp 960w, img/en/qr-login-1920.webp 1920w" sizes="(min-width:1100px) 620px, 92vw"><img src="img/en/qr-login.jpg" alt="Add account screen with a QR code to sign in with the phone, next to the server, user name and password fields." width="1600" height="900" loading="lazy" decoding="async"></picture></figure>
+</div>
+</figure>
+<div class="tour-captions">
+<p>Continue watching: the movies, episodes and channels you watched last.</p>
+<p>Country and category list, the channel list, and a live preview with the program that is on now and next.</p>
+<p>The guide grid by day. Watch live, from the start, or from the archive when the provider has one.</p>
+<p>Matches and events from the sports channels, grouped into Now, Today, Tomorrow and Later.</p>
+<p>Full screen. Up and Down change the channel, Left goes to the previous channel.</p>
+<p>The TV shows a QR code. Type the login on your phone and send.</p>
+</div>
+<div class="tour-tabs" role="tablist" aria-label="Screen tour">
+<button type="button" role="tab" id="tab-0" aria-selected="true" aria-controls="panel-0">Home<span class="bar"></span></button>
+<button type="button" role="tab" id="tab-1" aria-selected="false" aria-controls="panel-1" tabindex="-1">Live TV<span class="bar"></span></button>
+<button type="button" role="tab" id="tab-2" aria-selected="false" aria-controls="panel-2" tabindex="-1">Guide<span class="bar"></span></button>
+<button type="button" role="tab" id="tab-3" aria-selected="false" aria-controls="panel-3" tabindex="-1">Sports<span class="bar"></span></button>
+<button type="button" role="tab" id="tab-4" aria-selected="false" aria-controls="panel-4" tabindex="-1">Player<span class="bar"></span></button>
+<button type="button" role="tab" id="tab-5" aria-selected="false" aria-controls="panel-5" tabindex="-1">Phone sign&#8209;in<span class="bar"></span></button>
+</div>
+</div>
 </section>
-<section class="more" aria-labelledby="m"><h2 id="m">And more</h2><ul class="features">
-<li><h3>Resume where you left off</h3><p>The app opens on your last screen, tab, category and channel. Movies and series continue at the saved position.</p></li>
-<li><h3>Connection test</h3><p>Settings &gt; Diagnostics checks the internet, the provider address, the login, the channel list, the guide and a stream, step by step.</p></li>
-<li><h3>Remote-only navigation</h3><p>Built for the TV remote. Large text, clear focus, no touch needed.</p></li>
-<li><h3>Broken channels</h3><p>A channel that does not open is marked and hidden for 24 hours.</p></li>
-<li><h3>Your own lists</h3><p>Mark favorites and keep your own lists of channels, movies and series.</p></li>
-<li><h3>Channels, movies and series in one place</h3><p>Type a few letters and see results for movies, series and channels.</p></li>
-</ul></section>
+
+<section id="features" aria-labelledby="livetv-h">
+<h2 id="livetv-h">Live TV that keeps up</h2>
+<div class="cols">
+<p>Pick a country and a category on the left. The channel list sits in the middle. On the right, a live preview shows the program that is on now and next.</p>
+<p>In the player, Up and Down change the channel and Left goes to the previous channel. The quick menu has audio, subtitles, picture and an external player. A broken stream reconnects by itself.</p>
+</div>
+<figure class="tv wide"><div class="tv-screen"><picture><source type="image/webp" srcset="img/en/live-tv-960.webp 960w, img/en/live-tv-1920.webp 1920w" sizes="(min-width:1100px) 1144px, 92vw"><img src="img/en/live-tv.jpg" alt="Izlio Live TV screen with the country list, the channel list and a live preview." width="1600" height="900" loading="lazy" decoding="async"></picture></div></figure>
+</section>
+
+<section aria-labelledby="guide-h">
+<h2 id="guide-h">Every program. Every match.</h2>
+<div class="duo-wrap">
+<div class="prose">
+<p>The guide grid shows every program by day. Open a program to watch live or from the start. For past programs, "In archive" plays catch-up when the provider has an archive. For a later program, choose Remind me. The app shows a notice 1 minute before and at the start.</p>
+<p>The sports guide lists the matches and events from the guide data of the sports channels. They are grouped into Now, Today, Tomorrow and Later. A filter shows live matches only, or replays too. Press Left or Right to pick another channel for the same event.</p>
+</div>
+<div class="duo">
+<figure class="tv tv-main"><div class="tv-screen"><picture><source type="image/webp" srcset="img/en/guide-960.webp 960w, img/en/guide-1920.webp 1920w" sizes="(min-width:1000px) 640px, 92vw"><img src="img/en/guide.jpg" alt="Program guide grid with day tabs from Yesterday to Tuesday and the programs of each channel." width="1600" height="900" loading="lazy" decoding="async"></picture></div></figure>
+<figure class="tv tv-sub"><div class="tv-screen"><picture><source type="image/webp" srcset="img/en/sports-960.webp 960w, img/en/sports-1920.webp 1920w" sizes="(min-width:1000px) 300px, 70vw"><img src="img/en/sports.jpg" alt="Sports guide with matches grouped under Today and Tomorrow, the league and the channel of each match." width="1600" height="900" loading="lazy" decoding="async"></picture></div></figure>
+</div>
+</div>
+</section>
+
+<section class="qr" aria-labelledby="qr-h">
+<h2 id="qr-h">Type the login on your phone, not on the TV</h2>
+<ol class="steps">
+<li>The TV shows a QR code.</li>
+<li>Scan it and type the login on your phone.</li>
+<li>Send. The TV signs in.</li>
+</ol>
+<figure class="qr-demo"><video class="qr-video" muted loop playsinline preload="none" poster="img/en/qr-login-poster.jpg" width="1600" height="900" aria-label="Sign in with the phone: the TV shows a QR code, the phone sends the login, the TV signs in."><source src="img/en/qr-login.webm" type="video/webm"><source src="img/en/qr-login.mp4" type="video/mp4"></video></figure>
+<p class="qr-note">Your phone and TV must be on the same Wi-Fi. The login goes directly to the TV, encrypted. It does not go through the internet or through us. Typing on the TV with the remote also works.</p>
+</section>
+
+<section aria-labelledby="movies-h">
+<h2 id="movies-h">Movies and series, where you left off</h2>
+<div class="row3">
+<figure class="tv"><div class="tv-screen"><picture><source type="image/webp" srcset="img/en/movies-960.webp 960w, img/en/movies-1920.webp 1920w" sizes="(min-width:900px) 355px, 82vw"><img src="img/en/movies.jpg" alt="Izlio Movies screen with the category list and a grid of movie posters." width="1600" height="900" loading="lazy" decoding="async"></picture></div><figcaption>Posters, favorites and your own lists.</figcaption></figure>
+<figure class="tv"><div class="tv-screen"><picture><source type="image/webp" srcset="img/en/movie-detail-960.webp 960w, img/en/movie-detail-1920.webp 1920w" sizes="(min-width:900px) 355px, 82vw"><img src="img/en/movie-detail.jpg" alt="Movie details page with the poster, plot, genre, length, rating and the Resume and Start over buttons." width="1600" height="900" loading="lazy" decoding="async"></picture></div><figcaption>Resume at the saved position, or start over.</figcaption></figure>
+<figure class="tv"><div class="tv-screen"><picture><source type="image/webp" srcset="img/en/series-960.webp 960w, img/en/series-1920.webp 1920w" sizes="(min-width:900px) 355px, 82vw"><img src="img/en/series.jpg" alt="Series page with the poster, plot, a season list and a list of episodes with their length." width="1600" height="900" loading="lazy" decoding="async"></picture></div><figcaption>Seasons, episodes, and a countdown that starts the next episode.</figcaption></figure>
+</div>
+</section>
+
+<section aria-labelledby="yours-h">
+<h2 id="yours-h">Make it yours</h2>
+<div class="split">
+<div>
+<h3>Two subtitles at the same time</h3>
+<p>Pick a first and a second subtitle for movies and series. For example the original language and your language. Each one has its own color. You also set the size, color, background and font, and a preferred audio language.</p>
+<figure class="tv"><div class="tv-screen"><picture><source type="image/webp" srcset="img/en/subtitles-960.webp 960w, img/en/subtitles-1920.webp 1920w" sizes="(min-width:900px) 520px, 92vw"><img src="img/en/subtitles.jpg" alt="Subtitle look settings with a preview of two subtitle lines in two colors." width="1600" height="900" loading="lazy" decoding="async"></picture></div></figure>
+</div>
+<div>
+<h3>Show only what you watch</h3>
+<p>All countries and groups are on at the start. Hide the ones you do not watch in Settings &gt; Groups and categories. You can hide single categories too. A channel that does not open is hidden for 24 hours.</p>
+<figure class="tv"><div class="tv-screen"><picture><source type="image/webp" srcset="img/en/groups-960.webp 960w, img/en/groups-1920.webp 1920w" sizes="(min-width:900px) 520px, 92vw"><img src="img/en/groups.jpg" alt="Country picker with Turkey, Germany and United Kingdom and the number of channels, movies and series in each." width="1600" height="900" loading="lazy" decoding="async"></picture></div></figure>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="more-h">
+<h2 id="more-h">And more</h2>
+<dl class="more-list">
+<div><dt>Xtream Codes and M3U</dt><dd>Add an Xtream Codes account, an M3U link or an M3U file. The app reads the channels, movies and series that your list has.</dd></div>
+<div><dt>Resume where you left off</dt><dd>The app opens on your last screen, tab, category and channel. Movies and series continue at the saved position.</dd></div>
+<div><dt>Connection test</dt><dd>Settings &gt; Diagnostics checks the internet, the provider address, the login, the channel list, the guide and a stream.</dd></div>
+<div><dt>Built for the remote</dt><dd>Large text, clear focus, no touch needed.</dd></div>
+<div><dt>Your own lists</dt><dd>Favorites and lists of channels, movies and series.</dd></div>
+<div><dt>Search</dt><dd>Type a few letters. You get results for movies, series and channels.</dd></div>
+<div><dt>Two languages</dt><dd>The app is in English and Turkish.</dd></div>
+</dl>
+</section>
+
+<section class="band" aria-labelledby="privacy-h">
+<h2 id="privacy-h">Your data stays with you</h2>
+<p>The app sends no data to us. You need no account with us. The phone sign-in stays on your Wi-Fi. <a href="privacy.html">Read the privacy policy</a>.</p>
+</section>
+
+<section class="closing" aria-label="Get Izlio">
+<p class="soon"><svg width="16" height="18" viewBox="0 0 14 16" aria-hidden="true" focusable="false"><path d="M1 1.5v13L13 8Z" fill="currentColor"/></svg>Coming soon to Google Play</p>
+<p>Questions? See the <a href="support.html">support page</a>.</p>
+</section>
 </main>
-<footer><p>&copy; 2026 Izlio. All rights reserved.</p><p><a href="privacy.html">Privacy</a> · <a href="support.html">Support</a> · <a href="tr/">Türkçe</a></p></footer>
+<footer><p>&copy; 2026 Izlio. All rights reserved.</p><p><a href="privacy.html">Privacy</a> · <a href="support.html">Support</a> · <a href="tr/index.html">Türkçe</a></p></footer>
+<script>
+(function(){document.documentElement.classList.replace("no-js","js");var t=document.querySelector(".tour");if(!t)return;var r=matchMedia("(prefers-reduced-motion: reduce)").matches;if(r)t.classList.add("still");var b=[].slice.call(t.querySelectorAll("[role=tab]")),p=[].slice.call(t.querySelectorAll(".panel")),c=[].slice.call(t.querySelectorAll(".tour-captions p")),n=b.length,i=0,h=0;function go(k,f){i=((k%n)+n)%n;b.forEach(function(x,j){var s=j===i;x.setAttribute("aria-selected",s);x.tabIndex=s?0:-1;var a=x.querySelector(".bar");if(a&&!r){a.classList.remove("run","done");if(j<i)a.classList.add("done")}});p.forEach(function(x,j){x.classList.toggle("on",j===i)});c.forEach(function(x,j){x.classList.toggle("on",j===i)});var m=p[(i+1)%n].querySelector("img");if(m)m.loading="eager";if(f)b[i].focus()}function tick(){clearTimeout(h);var a=b[i].querySelector(".bar");if(a&&!r){a.classList.remove("run");void a.offsetWidth;a.classList.add("run")}if(!r)h=setTimeout(function(){go(i+1);tick()},5000)}b.forEach(function(x,j){x.addEventListener("click",function(){go(j);tick()});x.addEventListener("keydown",function(e){var d={ArrowRight:1,ArrowLeft:-1,Home:0,End:2}[e.key];if(d===undefined)return;e.preventDefault();go(d===0?0:d===2?n-1:j+d,1);tick()})});t.addEventListener("mouseenter",function(){t.classList.add("paused");clearTimeout(h)});t.addEventListener("mouseleave",function(){t.classList.remove("paused");tick()});t.addEventListener("focusin",function(){t.classList.add("paused");clearTimeout(h)});t.addEventListener("focusout",function(){t.classList.remove("paused");tick()});go(0);tick();
+})();
+(function(){
+var v=document.querySelector(".qr-video");if(!v)return;
+var f=v.parentNode,rm=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function play(){if(v.paused)try{var p=v.play();if(p&&p.catch)p.catch(function(){})}catch(e){}}
+if(rm){
+var b=document.createElement("button");b.type="button";b.className="qr-play";
+b.innerHTML='<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1l9 5-9 5Z" fill="currentColor"/></svg>Play';
+b.addEventListener("click",function(){play();b.classList.remove("on")});
+f.appendChild(b);b.classList.add("on");
+return;
+}
+new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)play();else v.pause()})},{threshold:.4}).observe(v);
+})();
+</script>
 </body>
 </html>

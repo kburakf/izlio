@@ -12,16 +12,25 @@
 <body>
 <header class="top"><a class="brand" href="index.html"><img class="mark" src="logo.svg" alt="izlio" width="98" height="40"></a>
 <nav aria-label="Main"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a class="lang" href="tr/support.html" hreflang="tr">Türkçe</a></nav></header>
-<main>
+<main class="page">
 <h1>Support</h1>
-<p>Questions or problems? Write to <strong><a href="mailto:izlio@baseflow.ee">izlio@baseflow.ee</a></strong>. Tell us your TV model and Android version. Do not send your password.</p>
+<p>Questions or problems? Write to <strong><span class="mail" data-u="izlio" data-d="baseflow.ee">izlio [at] baseflow [dot] ee</span></strong>. Tell us your TV model and Android version. Do not send your password.</p>
 <h2>FAQ</h2>
-<details open><summary>How do I add a provider?</summary><p>Open Izlio. On the login screen, enter the server address, user name and password that your provider gave you (Xtream Codes). You can also use the QR code: scan it with your phone and type the login there. The app then downloads your lists. Then choose the countries and groups to show.</p></details>
+<details open><summary>How do I add a provider?</summary><p>Open Izlio. On the login screen, choose one of 3 ways to sign in. Xtream Codes: enter the server address, user name and password that your provider gave you. M3U link: paste the playlist URL. M3U file: pick a playlist file. You can also use the QR code: scan it with your phone and type the login there. You can enter the Xtream Codes fields or an M3U link. The app then downloads your lists. Then choose the countries and groups to show.</p></details>
 <details><summary>A channel does not open. What can I do?</summary><p>Check that your TV has internet and that your provider account is active. The app reconnects by itself when a stream drops. A channel that does not open is marked as not working and hidden for 24 hours. In Settings, use "Update now" to refresh the lists. If the problem stays, ask your provider.</p></details>
 <details><summary>Where does the app keep my data?</summary><p>Only on your TV, in the private storage of the app. The app does not upload it and Android does not back it up. See the <a href="privacy.html">privacy policy</a>.</p></details>
 <details><summary>How do I delete my data?</summary><p>Choose Sign out in the app. Your favorites and lists stay on the TV. To remove everything, open Android Settings, then Apps, then Izlio, then Clear data (or uninstall the app).</p></details>
 <details><summary>Does Izlio give me channels?</summary><p>No. Izlio does not provide, host or sell any channels, movies or streams. You need your own provider account.</p></details>
 </main>
 <footer><p>&copy; 2026 Izlio. All rights reserved.</p><p><a href="privacy.html">Privacy</a> · <a href="support.html">Support</a> · <a href="tr/support.html">Türkçe</a></p></footer>
+<script>
+document.querySelectorAll(".mail").forEach(function(el){
+  var a=document.createElement("a");
+  a.href="mail"+"to:"+el.dataset.u+"@"+el.dataset.d;
+  a.textContent=el.dataset.u+"@"+el.dataset.d;
+  el.replaceWith(a);
+});
+</script>
 </body>
+
 </html>
