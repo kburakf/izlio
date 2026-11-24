@@ -1,6 +1,6 @@
-# Izlio site
+# izlio site
 
-Static site for the Izlio app. Plain HTML and one CSS file. No build step.
+Static site for the izlio app. Plain HTML and one CSS file. No build step.
 
 ## Publish with GitHub Pages
 
